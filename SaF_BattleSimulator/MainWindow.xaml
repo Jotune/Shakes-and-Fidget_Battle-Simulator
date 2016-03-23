@@ -1,0 +1,8 @@
+﻿<Window x:Class="SaF_BattleSimulator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Button Click="Button_Click">Start</Button>
+    </Grid>
+</Window>
