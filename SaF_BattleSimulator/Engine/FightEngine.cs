@@ -66,7 +66,7 @@ namespace SaF_BattleSimulator.Engine
 
         private int CalculateDamage(int playerAttacking)
         {
-            var attackerDamage = this.DoesAttackerCrit(playerAttacking) ? Characters[playerAttacking].Damage * 2 : Characters[playerAttacking].Damage;
+            var attackerDamage = this.DoesAttackerCrit(playerAttacking) ? Characters[playerAttacking].Damage * 3 : Characters[playerAttacking].Damage;
             if (!Characters[playerAttacking].IgnoreArmor)
             {
                 return ApplyTurnBasedDamageMultplier(attackerDamage - (attackerDamage * Characters[(playerAttacking + 1) % 2].ArmoredPercent));

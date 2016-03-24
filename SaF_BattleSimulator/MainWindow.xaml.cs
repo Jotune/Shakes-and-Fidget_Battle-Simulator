@@ -35,19 +35,20 @@ namespace SaF_BattleSimulator
             Warrior player1 = new Warrior()
             {
                 Name = "Moi",
-                Damage = 3899,
-                ArmoredPercent = 46 / 100.0,
-                HitPoints = 59160,
-                CriticalHit = 20
+                Damage = 3906,
+                ArmoredPercent = 50 / 100.0,
+                HitPoints = 67025,
+                CriticalHit = 23.08
             };
 
-            Magus player2 = new Magus()
+
+            Warrior player2 = new Warrior()
             {
                 Name = "Lui",
-                Damage = 7104,
-                ArmoredPercent = 7 / 100.0,
-                HitPoints = 39744,
-                CriticalHit = 23
+                Damage = 5234,
+                ArmoredPercent = 41 / 100.0,
+                HitPoints = 39190,
+                CriticalHit = 22.08
             };
 
             for (int i = 0; i < results.Length; i++)
